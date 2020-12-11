@@ -1,0 +1,52 @@
+.detail-container {
+  height: 100vh;
+  width: 500px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.detail-header {
+  width: 100%;
+  position: relative;
+  height: 100px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  background: rgb(200, 200, 200);
+}
+
+.detail-subject {
+  text-align: left;
+  margin: 0px 0px;
+  padding: 10px 10px;
+}
+
+.detail-from {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.detail-time {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+
+.detail-delete-btn {
+  border: solid 1px black;
+  border-radius: 8px;
+  background: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.detail-body {
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.detail-body > p {
+  text-align: left;
+}

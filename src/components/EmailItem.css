@@ -1,0 +1,40 @@
+.list-item-container {
+  position: relative;
+  height: 100px;
+  width: 300px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  background-color: white;
+  cursor: pointer;
+  border: solid 1px rgb(200, 200, 200);
+}
+
+.list-item-subject {
+  text-align: left;
+  font-size: large;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+}
+
+.list-item-from {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  color: gray;
+}
+
+.list-item-time {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: gray;
+}
+
+.list-item-dot {
+  color: tomato;
+  font-size: 50px;
+  position: absolute;
+  top: -20px;
+  right: 10px;
+}

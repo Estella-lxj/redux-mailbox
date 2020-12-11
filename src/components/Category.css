@@ -1,0 +1,27 @@
+.category-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100vh;
+  background-color: rgb(47, 49, 54);
+}
+
+.category-new {
+  padding-top: 50px;
+  height: 150px;
+  background-color: tomato;
+  color: white;
+}
+
+.category-btn-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-btn-group > button {
+  all: unset;
+  height: 100px;
+  color: white;
+  background-color: rgb(47, 49, 54);
+  cursor: pointer;
+}
